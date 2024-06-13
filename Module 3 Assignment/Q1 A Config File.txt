@@ -1,0 +1,16 @@
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=IN
+
+network={
+    ssid="PALANI KUMAR 2.4 G"
+    proto=RSN
+    key_mgmt=FT-EAP
+    pairwise=CCMP
+    group=CCMP
+    eap=PEAP
+    identity="SANJAY"
+    password="luffy0204"
+    phase2="auth=MSCHAPV2"
+    priority=1
+}
